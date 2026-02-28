@@ -1,0 +1,353 @@
+"<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <meta name=\"description\" content=\"Velocity Motors - Premium luxury vehicles and high-performance cars. Experience automotive excellence.\">
+    <title>Velocity Motors | Drive the Future</title>
+    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
+    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">
+    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css\">
+    <link rel=\"stylesheet\" href=\"style.css\">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class=\"navbar\" id=\"navbar\">
+        <div class=\"nav-container\">
+            <a href=\"#home\" class=\"logo\">
+                <div class=\"logo-icon\">V</div>
+                <span class=\"logo-text\">VELOCITY</span>
+            </a>
+            <div class=\"nav-links\" id=\"navLinks\">
+                <a href=\"#home\" class=\"nav-link active\">Home</a>
+                <a href=\"#inventory\" class=\"nav-link\">Inventory</a>
+                <a href=\"#about\" class=\"nav-link\">About</a>
+                <a href=\"#contact\" class=\"nav-link\">Contact</a>
+            </div>
+            <a href=\"#inventory\" class=\"nav-cta\">View Cars</a>
+            <button class=\"mobile-menu-btn\" id=\"mobileMenuBtn\" aria-label=\"Toggle menu\">
+                <i class=\"fas fa-bars\"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class=\"mobile-menu\" id=\"mobileMenu\">
+        <a href=\"#home\" class=\"mobile-link\">Home</a>
+        <a href=\"#inventory\" class=\"mobile-link\">Inventory</a>
+        <a href=\"#about\" class=\"mobile-link\">About</a>
+        <a href=\"#contact\" class=\"mobile-link\">Contact</a>
+        <a href=\"#inventory\" class=\"mobile-cta\">View Cars</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class=\"hero\" id=\"home\">
+        <div class=\"hero-bg\"></div>
+        <div class=\"hero-gradient\"></div>
+        <div class=\"hero-content\">
+            <span class=\"hero-subtitle\">Premium Automotive Excellence</span>
+            <h1 class=\"hero-title\">DRIVE THE<br><span class=\"text-primary\">FUTURE</span></h1>
+            <p class=\"hero-description\">Experience the pinnacle of automotive performance and luxury. Discover our exclusive collection of the world's most prestigious vehicles.</p>
+            <div class=\"hero-buttons\">
+                <a href=\"#inventory\" class=\"btn btn-primary\">
+                    View Cars <i class=\"fas fa-chevron-right\"></i>
+                </a>
+                <a href=\"#contact\" class=\"btn btn-outline\">Book a Test Drive</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class=\"features\">
+        <div class=\"container\">
+            <div class=\"features-grid\">
+                <div class=\"feature-card\">
+                    <div class=\"feature-icon\">
+                        <i class=\"fas fa-bolt\"></i>
+                    </div>
+                    <h3>PERFORMANCE</h3>
+                    <p>Every vehicle in our collection is selected for its exceptional performance and driving dynamics.</p>
+                </div>
+                <div class=\"feature-card\">
+                    <div class=\"feature-icon\">
+                        <i class=\"fas fa-shield-alt\"></i>
+                    </div>
+                    <h3>QUALITY ASSURED</h3>
+                    <p>Rigorous multi-point inspections ensure every vehicle meets our exacting standards.</p>
+                </div>
+                <div class=\"feature-card\">
+                    <div class=\"feature-icon\">
+                        <i class=\"fas fa-award\"></i>
+                    </div>
+                    <h3>EXPERT SERVICE</h3>
+                    <p>Our passionate team provides personalized service tailored to your unique requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Cars Section -->
+    <section class=\"featured-cars\" id=\"inventory\">
+        <div class=\"container\">
+            <div class=\"section-header\">
+                <div>
+                    <span class=\"section-subtitle\">Our Collection</span>
+                    <h2 class=\"section-title\">FEATURED VEHICLES</h2>
+                </div>
+                <a href=\"#inventory\" class=\"view-all\">View All Inventory <i class=\"fas fa-arrow-right\"></i></a>
+            </div>
+            <div class=\"cars-grid\" id=\"carsGrid\">
+                <!-- Cars will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class=\"testimonials\">
+        <div class=\"container\">
+            <div class=\"section-header center\">
+                <span class=\"section-subtitle\">Client Stories</span>
+                <h2 class=\"section-title\">WHAT OUR CLIENTS SAY</h2>
+            </div>
+            <div class=\"testimonials-grid\">
+                <div class=\"testimonial-card\">
+                    <div class=\"testimonial-stars\">
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                    </div>
+                    <p class=\"testimonial-text\">\"Exceptional service from start to finish. The team at Velocity made my dream of owning a Huracán a reality. Professional, knowledgeable, and truly passionate about these machines.\"</p>
+                    <div class=\"testimonial-author\">
+                        <div class=\"author-avatar\">M</div>
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <span>Lamborghini Huracán Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"testimonial-card\">
+                    <div class=\"testimonial-stars\">
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                    </div>
+                    <p class=\"testimonial-text\">\"The attention to detail and customer care at Velocity Motors is unmatched. They found me the perfect 911 Turbo S with every option I wanted. Highly recommend!\"</p>
+                    <div class=\"testimonial-author\">
+                        <div class=\"author-avatar\">S</div>
+                        <div>
+                            <h4>Sarah Williams</h4>
+                            <span>Porsche 911 Turbo S Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"testimonial-card\">
+                    <div class=\"testimonial-stars\">
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                        <i class=\"fas fa-star\"></i>
+                    </div>
+                    <p class=\"testimonial-text\">\"Purchasing my Ferrari from Velocity was an incredible experience. Their expertise in exotic cars is evident, and the after-sales support has been fantastic.\"</p>
+                    <div class=\"testimonial-author\">
+                        <div class=\"author-avatar\">J</div>
+                        <div>
+                            <h4>James Rodriguez</h4>
+                            <span>Ferrari 488 GTB Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class=\"newsletter\">
+        <div class=\"newsletter-bg\"></div>
+        <div class=\"newsletter-overlay\"></div>
+        <div class=\"newsletter-content\">
+            <span class=\"section-subtitle\">Stay Updated</span>
+            <h2 class=\"section-title\">JOIN THE ELITE</h2>
+            <p>Subscribe to our newsletter for exclusive offers, new arrivals, and automotive insights.</p>
+            <form class=\"newsletter-form\" id=\"newsletterForm\">
+                <input type=\"email\" placeholder=\"Enter your email\" required id=\"newsletterEmail\">
+                <button type=\"submit\" class=\"btn btn-primary\">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class=\"about\" id=\"about\">
+        <div class=\"container\">
+            <div class=\"about-grid\">
+                <div class=\"about-content\">
+                    <span class=\"section-subtitle\">Our Story</span>
+                    <h2 class=\"section-title\">PASSION FOR<br><span class=\"text-primary\">PERFORMANCE</span></h2>
+                    <p>Founded in 2009, Velocity Motors has grown from a small boutique dealership to one of the most respected names in luxury automotive retail. Our journey has been driven by an unwavering passion for exceptional vehicles and uncompromising customer service.</p>
+                    <div class=\"about-stats\">
+                        <div class=\"stat\">
+                            <span class=\"stat-value\">500+</span>
+                            <span class=\"stat-label\">Vehicles Sold</span>
+                        </div>
+                        <div class=\"stat\">
+                            <span class=\"stat-value\">15+</span>
+                            <span class=\"stat-label\">Years Experience</span>
+                        </div>
+                        <div class=\"stat\">
+                            <span class=\"stat-value\">98%</span>
+                            <span class=\"stat-label\">Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class=\"about-image\">
+                    <img src=\"https://images.unsplash.com/photo-1667960733570-ddbbee6f4404?crop=entropy&cs=srgb&fm=jpg&q=85\" alt=\"Velocity Motors Showroom\">
+                    <div class=\"about-badge\">
+                        <span class=\"badge-value\">15+</span>
+                        <span class=\"badge-label\">Years of Excellence</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class=\"contact\" id=\"contact\">
+        <div class=\"container\">
+            <div class=\"contact-grid\">
+                <div class=\"contact-form-wrapper\">
+                    <h2 class=\"section-title\">SEND US A MESSAGE</h2>
+                    <form class=\"contact-form\" id=\"contactForm\">
+                        <div class=\"form-row\">
+                            <div class=\"form-group\">
+                                <label>Full Name</label>
+                                <input type=\"text\" name=\"name\" required placeholder=\"John Doe\">
+                            </div>
+                            <div class=\"form-group\">
+                                <label>Email Address</label>
+                                <input type=\"email\" name=\"email\" required placeholder=\"john@example.com\">
+                            </div>
+                        </div>
+                        <div class=\"form-row\">
+                            <div class=\"form-group\">
+                                <label>Phone Number</label>
+                                <input type=\"tel\" name=\"phone\" placeholder=\"+1 (310) 555-1234\">
+                            </div>
+                            <div class=\"form-group\">
+                                <label>Subject</label>
+                                <input type=\"text\" name=\"subject\" required placeholder=\"Vehicle Inquiry\">
+                            </div>
+                        </div>
+                        <div class=\"form-group\">
+                            <label>Message</label>
+                            <textarea name=\"message\" rows=\"5\" required placeholder=\"How can we help you?\"></textarea>
+                        </div>
+                        <button type=\"submit\" class=\"btn btn-primary\">
+                            Send Message <i class=\"fas fa-paper-plane\"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class=\"contact-info\">
+                    <div class=\"info-card\">
+                        <div class=\"info-icon\"><i class=\"fas fa-map-marker-alt\"></i></div>
+                        <h4>Visit Our Showroom</h4>
+                        <p>123 Automotive Drive<br>Los Angeles, CA 90001</p>
+                    </div>
+                    <div class=\"info-card\">
+                        <div class=\"info-icon\"><i class=\"fas fa-phone\"></i></div>
+                        <h4>Call Us</h4>
+                        <p>+1 (310) 555-1234<br>+1 (310) 555-5678</p>
+                    </div>
+                    <div class=\"info-card\">
+                        <div class=\"info-icon\"><i class=\"fas fa-envelope\"></i></div>
+                        <h4>Email Us</h4>
+                        <p>info@velocitymotors.com<br>sales@velocitymotors.com</p>
+                    </div>
+                    <div class=\"info-card\">
+                        <div class=\"info-icon\"><i class=\"fas fa-clock\"></i></div>
+                        <h4>Business Hours</h4>
+                        <p>Mon - Fri: 9:00 AM - 7:00 PM<br>Sat: 10:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class=\"footer\">
+        <div class=\"container\">
+            <div class=\"footer-grid\">
+                <div class=\"footer-brand\">
+                    <a href=\"#home\" class=\"logo\">
+                        <div class=\"logo-icon\">V</div>
+                        <span class=\"logo-text\">VELOCITY</span>
+                    </a>
+                    <p>Premium luxury vehicles and unmatched customer service. Experience the thrill of performance at Velocity Motors.</p>
+                    <div class=\"social-links\">
+                        <a href=\"#\" aria-label=\"Facebook\"><i class=\"fab fa-facebook-f\"></i></a>
+                        <a href=\"#\" aria-label=\"Instagram\"><i class=\"fab fa-instagram\"></i></a>
+                        <a href=\"#\" aria-label=\"Twitter\"><i class=\"fab fa-twitter\"></i></a>
+                        <a href=\"#\" aria-label=\"YouTube\"><i class=\"fab fa-youtube\"></i></a>
+                    </div>
+                </div>
+                <div class=\"footer-links\">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href=\"#inventory\">View Inventory</a></li>
+                        <li><a href=\"#about\">About Us</a></li>
+                        <li><a href=\"#contact\">Contact</a></li>
+                        <li><a href=\"#\">Financing Options</a></li>
+                        <li><a href=\"#\">Trade-In</a></li>
+                    </ul>
+                </div>
+                <div class=\"footer-links\">
+                    <h4>Our Brands</h4>
+                    <ul>
+                        <li><a href=\"#\">Lamborghini</a></li>
+                        <li><a href=\"#\">Ferrari</a></li>
+                        <li><a href=\"#\">Porsche</a></li>
+                        <li><a href=\"#\">Mercedes-AMG</a></li>
+                        <li><a href=\"#\">BMW M</a></li>
+                    </ul>
+                </div>
+                <div class=\"footer-contact\">
+                    <h4>Contact Us</h4>
+                    <p><i class=\"fas fa-map-marker-alt\"></i> 123 Automotive Drive<br>Los Angeles, CA 90001</p>
+                    <p><i class=\"fas fa-phone\"></i> +1 (310) 555-1234</p>
+                    <p><i class=\"fas fa-envelope\"></i> info@velocitymotors.com</p>
+                </div>
+            </div>
+            <div class=\"footer-bottom\">
+                <p>&copy; 2024 Velocity Motors. All rights reserved.</p>
+                <div class=\"footer-legal\">
+                    <a href=\"#\">Privacy Policy</a>
+                    <a href=\"#\">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Car Detail Modal -->
+    <div class=\"modal\" id=\"carModal\">
+        <div class=\"modal-content\">
+            <button class=\"modal-close\" id=\"modalClose\">&times;</button>
+            <div class=\"modal-body\" id=\"modalBody\">
+                <!-- Car details will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class=\"toast\" id=\"toast\">
+        <i class=\"fas fa-check-circle\"></i>
+        <span id=\"toastMessage\">Success!</span>
+    </div>
+
+    <script src=\"script.js\"></script>
+</body>
+</html>
+"
